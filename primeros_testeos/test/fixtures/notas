@@ -1,0 +1,2 @@
+Las fixture nos ayudan a tener como funciones estaticas que se puedene ejecutar en los test, se crea una archivo
+con las fixture que necesiten, por lo general cada archivo de fixture se enfoca en algo en particular
