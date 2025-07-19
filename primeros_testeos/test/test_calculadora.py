@@ -20,6 +20,6 @@ class TestCalculadora:
         resultado = Calculadora.resta(5, 4)
         assert  resultado == 1
 
-    def test_division(self):
+    def test_division(self, nombre, apellido, ine):
         resultado = Calculadora.division(6,3)
         assert resultado == 2

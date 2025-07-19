@@ -1,2 +1,5 @@
 Las fixture nos ayudan a tener como funciones estaticas que se puedene ejecutar en los test, se crea una archivo
 con las fixture que necesiten, por lo general cada archivo de fixture se enfoca en algo en particular
+
+El archivo conftest.py sera el encargado de gestionar las fixtures como plugins para que pueden ser llamados dentro
+del proyecto pero sin tener que estar importando cada una dentro de cada test
