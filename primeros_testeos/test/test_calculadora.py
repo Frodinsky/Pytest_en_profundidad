@@ -23,3 +23,8 @@ class TestCalculadora:
     def test_division(self, nombre, apellido, ine):
         resultado = Calculadora.division(6,3)
         assert resultado == 2
+
+    def test_impares(self, numero_impar):
+        no1 = numero_impar()
+        no2 = numero_impar()
+        assert (no1 + no2) %2 == 0
