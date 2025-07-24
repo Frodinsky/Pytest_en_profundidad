@@ -2,7 +2,6 @@ import pytest
 from selenium import webdriver
 import sys
 import os
-
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from selenium_pytests.selenium_tests.login_page import LoginPage
 from selenium_pytests.utils.config import load_config
